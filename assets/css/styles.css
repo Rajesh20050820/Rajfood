@@ -1,0 +1,114 @@
+/* Custom Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+  --primary: #e63946;
+  --secondary: #f4a261;
+  --accent: #2a9d8f;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Hero Animation */
+.hero {
+  overflow: hidden;
+}
+
+.animate-hero-content {
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Menu Item Animation */
+.menu-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Category Header */
+.category-header {
+  position: relative;
+}
+
+.category-header::after {
+  content: '\f078';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  position: absolute;
+  right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.category.collapsed .category-header::after {
+  transform: rotate(180deg);
+}
+
+/* Cart Item */
+.cart-item {
+  transition: background 0.3s ease;
+}
+
+.cart-item:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Toast Notification */
+.toast {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: var(--accent);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(30px);
+  animation: toastIn 0.5s forwards, toastOut 0.5s 3s forwards;
+}
+
+.toast.error {
+  background: var(--primary);
+}
+
+@keyframes toastIn {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes toastOut {
+  to { opacity: 0; transform: translateY(30px); }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .menu-item img {
+    height: 180px;
+  }
+  .cart-item img {
+    width: 50px;
+    height: 50px;
+  }
+}
