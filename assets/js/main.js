@@ -1,20 +1,20 @@
-// Menu Data
+// Menu Data (Updated to match the flyer)
 const menuItems = [
-  { name: 'Margherita Pizza', price: 99, category: 'Pizza', image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Paneer Tikka Pizza', price: 129, category: 'Pizza', image: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Veggie Supreme Pizza', price: 139, category: 'Pizza', image: 'https://images.unsplash.com/photo-1513104890138-7c749659a776?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Corn & Cheese Pizza', price: 119, category: 'Pizza', image: 'https://images.unsplash.com/photo-1565299624946-b28fddf71692?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Spicy Aloo Burger', price: 59, category: 'Burger', image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Paneer Cheese Burger', price: 69, category: 'Burger', image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Classic Fries', price: 49, category: 'Fries', image: 'https://images.unsplash.com/photo-1630384060421-2c64e5f5a53a?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Masala Fries', price: 59, category: 'Fries', image: 'https://images.unsplash.com/photo-1599497489995-2b2c43f2f78c?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Veg Club Sandwich', price: 39, category: 'Sandwich', image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Paneer Mayo Sandwich', price: 59, category: 'Sandwich', image: 'https://images.unsplash.com/photo-1606755287287-5e2051e7f7f0?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Tandoori Sandwich', price: 69, category: 'Sandwich', image: 'https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Home Tiffin (Dal, Rice, Sabji, 5 Roti)', price: 89, category: 'Tiffin', image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Pizza + Burger + Drink Combo', price: 169, category: 'Combo', image: 'https://images.unsplash.com/photo-1559304787-7a5c492e573c?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Pizza + Fries + Drink Combo', price: 169, category: 'Combo', image: 'https://images.unsplash.com/photo-1559304787-7a5c492e573c?auto=format&fit=crop&w=300&h=220&q=90' },
-  { name: 'Burger + Fries + Drink Combo', price: 159, category: 'Combo', image: 'https://images.unsplash.com/photo-1559304787-7a5c492e573c?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Onion Capsicum Pizza', price: 99, category: 'Pizza', image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Cheese Paneer Pizza', price: 119, category: 'Pizza', image: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Double Cheese Pizza', price: 129, category: 'Pizza', image: 'https://images.unsplash.com/photo-1513104890138-7c749659a776?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Cheese Corn Pizza', price: 129, category: 'Pizza', image: 'https://images.unsplash.com/photo-1565299624946-b28fddf71692?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Aloo Tikki Burger', price: 49, category: 'Burger', image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Cheese Burger', price: 59, category: 'Burger', image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=300&h=220&q=90" },
+  { name: 'Plain Salted Fries', price: 39, category: 'Fries', image: 'https://images.unsplash.com/photo-1630384060421-2c64e5f5a53a?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Peri Peri Fries', price: 49, category: 'Fries', image: 'https://images.unsplash.com/photo-1599497489995-2b2c43f2f78c?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Veg Sandwich', price: 29, category: 'Sandwich', image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Veg Mayo Sandwich', price: 49, category: 'Sandwich', image: 'https://images.unsplash.com/photo-1606755287287-5e2051e7f7f0?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Cheese Paneer Sandwich', price: 59, category: 'Sandwich', image: 'https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Tiffin Meal (Dal, Chawal, Sabji, 5 Chapati, Achar)', price: 80, category: 'Tiffin', image: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Pizza (Small Size) + Burger + Cold Drink', price: 159, category: 'Combo', image: 'https://images.unsplash.com/photo-1559304787-7a5c492e573c?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Pizza (Small Size) + Fries + Cold Drink', price: 159, category: 'Combo', image: 'https://images.unsplash.com/photo-1559304787-7a5c492e573c?auto=format&fit=crop&w=300&h=220&q=90' },
+  { name: 'Burger + Fries + Cold Drink', price: 159, category: 'Combo', image: 'https://images.unsplash.com/photo-1559304787-7a5c492e573c?auto=format&fit=crop&w=300&h=220&q=90' },
 ];
 
 // Cart Management
@@ -287,4 +287,4 @@ function debounce(func, wait) {
     clearTimeout(timeout);
     timeout = setTimeout(later, wait);
   };
-}
+          }
