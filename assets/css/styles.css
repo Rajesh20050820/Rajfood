@@ -93,7 +93,7 @@ body {
   to { opacity: 0; transform: translateY(30px); }
 }
 
-/* Responsive Adjustments */
+/* Mobile View Adjustments */
 @media (max-width: 768px) {
   .hero {
     height: 70vh;
@@ -106,6 +106,13 @@ body {
   }
   .menu-item img {
     height: 180px;
+  }
+  .menu-items {
+    grid-template-columns: 1fr !important;
+  }
+  .menu-item {
+    border-radius: 16px;
+    overflow: hidden;
   }
   .cart-item img {
     width: 50px;
