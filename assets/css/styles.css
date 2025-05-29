@@ -1,5 +1,5 @@
 /* Custom Styles */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap');
 
 :root {
   --primary: #e63946;
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .font-playfair {
@@ -36,7 +36,7 @@ body {
 
 .menu-item:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
 }
 
 /* Category Header */
@@ -91,6 +91,11 @@ body {
 
 @keyframes toastOut {
   to { opacity: 0; transform: translateY(30px); }
+}
+
+/* Rating Stars */
+.rating {
+  color: #f4a261;
 }
 
 /* Mobile View Adjustments */
